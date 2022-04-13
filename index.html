@@ -471,7 +471,7 @@
 
         <div class="footer-right-side">
           <b class="subscribe-title footer-socials-title">Подпишитесь на рассылку</b>
-          <form class="subscribe-form" action="">
+          <form class="subscribe-form">
             <input class="subscribe-input" type="email" placeholder="E-mail" />
             <button class="subscribe-btn" type="submit">
               <span class="subscribe-btn-text">Подписаться</span>
@@ -494,9 +494,9 @@
           </svg>
         </button>
         <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
-        <form class="modal-form" action="">
+        <form class="modal-form">
           <div class="modal-form-field">
-            <input class="modal-input" type="text" name="name" id="name" />
+            <input class="modal-input" type="text" name="name" id="name" autofocus />
             <label class="modal-label" for="name"
               ><span class="modal-label-wrapper">Имя</span></label
             >
@@ -505,8 +505,8 @@
             </svg>
           </div>
           <div class="modal-form-field">
-            <input class="modal-input" type="tel" name="name" id="" />
-            <label class="modal-label" for=""
+            <input class="modal-input" type="tel" name="telephone" id="tel" />
+            <label class="modal-label" for="tel"
               ><span class="modal-label-wrapper">Телефон</span></label
             >
             <svg class="modal-icon" width="18px" height="18px">
@@ -514,8 +514,10 @@
             </svg>
           </div>
           <div class="modal-form-field">
-            <input class="modal-input" type="text" name="name" id="" />
-            <label class="modal-label" for=""><span class="modal-label-wrapper">Почта</span></label>
+            <input class="modal-input" type="email" name="email" id="email" />
+            <label class="modal-label" for="email"
+              ><span class="modal-label-wrapper">Почта</span></label
+            >
             <svg class="modal-icon" width="18px" height="18px">
               <use href="./images/icons/icons.svg#modal-email"></use>
             </svg>
